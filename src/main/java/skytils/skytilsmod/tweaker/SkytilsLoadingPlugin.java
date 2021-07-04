@@ -143,7 +143,7 @@ public class SkytilsLoadingPlugin implements IFMLLoadingPlugin {
 
         Icon icon = null;
         try {
-            URL url = SkytilsLoadingPlugin.class.getResource("/assets/skytils/sychicpet.gif");
+            URL url = SkytilsLoadingPlugin.class.getResource("/assets/skytils/blamesychic.png");
             if (url != null) {
                 icon = new ImageIcon(Toolkit.getDefaultToolkit().createImage(url).getScaledInstance(50, 50, Image.SCALE_DEFAULT));
             }
